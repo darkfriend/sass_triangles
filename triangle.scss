@@ -15,22 +15,22 @@
 @mixin triangle-right($size : 20px, $color: #fff){
     @include triangle($size,$color,'left');
 }
-@mixin triangle-up-right(){
+@mixin triangle-up-right($size : 20px, $color: #fff){
     @include triangle($size,$color,'top',(
         border-right : $size solid $color,
     ));
 }
-@mixin triangle-up-left(){
+@mixin triangle-up-left($size : 20px, $color: #fff){
     @include triangle($size,$color,'top',(
         border-left : $size solid $color,
     ));
 }
-@mixin triangle-down-right(){
+@mixin triangle-down-right($size : 20px, $color: #fff){
     @include triangle($size,$color,'bottom',(
         border-right : $size solid $color,
     ));
 }
-@mixin triangle-down-left(){
+@mixin triangle-down-left($size : 20px, $color: #fff){
     @include triangle($size,$color,'bottom',(
         border-left : $size solid $color,
     ));
