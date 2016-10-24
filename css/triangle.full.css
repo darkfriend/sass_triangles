@@ -1,0 +1,31 @@
+.triangle-down-left {
+  border: 20px solid transparent;
+  border-bottom: 20px solid #000; }
+
+.triangle-down-right {
+  border: 20px solid transparent;
+  border-bottom: 20px solid #000; }
+
+.triangle-down {
+  border: 20px solid transparent;
+  border-top: 20px solid #000; }
+
+.triangle-left {
+  border: 20px solid transparent;
+  border-right: 20px solid #000; }
+
+.triangle-right {
+  border: 20px solid transparent;
+  border-left: 20px solid #000; }
+
+.triangle-up-left {
+  border: 20px solid transparent;
+  border-top: 20px solid #000; }
+
+.triangle-up-right {
+  border: 20px solid transparent;
+  border-top: 20px solid #000; }
+
+.triangle-up {
+  border: 20px solid transparent;
+  border-bottom: 20px solid #000; }

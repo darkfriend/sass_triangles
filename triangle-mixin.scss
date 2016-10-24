@@ -1,12 +1,10 @@
-/**
-* Mixins for create triangles in CSS
-* @author darkfriend
-* @date 2016-03-11
-*/
+// Mixins for create triangles in CSS
+// @author darkfriend
+// @date 2016-03-11
 @mixin triangle-up($size : 20px, $color: #fff){
     @include triangle($size,$color,bottom);
 }
-@mixin triangle-down(){
+@mixin triangle-down($size : 20px, $color: #fff){
     @include triangle($size,$color,'top');
 }
 @mixin triangle-left($size : 20px, $color: #fff){

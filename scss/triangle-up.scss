@@ -1,0 +1,4 @@
+@import "../triangle-mixin.scss";
+.triangle-up{
+    @include triangle-up(20px,#000);
+}
